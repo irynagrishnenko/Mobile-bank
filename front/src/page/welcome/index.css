@@ -1,0 +1,50 @@
+.welcome__page {
+  width: 393px;
+  height: 852px;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.welcome {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+  background: url("./background.svg") no-repeat;
+}
+
+.money__img {
+  position: absolute;
+  top: 322px;
+  right: 1127px;
+  width: 300px;
+  height: 300px;
+}
+
+.welcome__title {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  padding-top: 54px;
+  padding-bottom: 16px;
+}
+
+.welcome__subtitle {
+  color: white;
+  font-size: 20px;
+}
+
+.welcome__space {
+  height: 80px;
+}
+
+.buttons {
+  display: grid;
+  gap: 12px;
+  padding-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+}

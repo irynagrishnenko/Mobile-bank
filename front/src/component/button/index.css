@@ -1,0 +1,35 @@
+.button {
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  display: flex;
+  padding: 20px 140px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+
+  width: 353px;
+  cursor: pointer;
+  color: #fff;
+  background: #775ce5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button--secondary {
+  font-size: 16px;
+  padding: 20px 140px;
+  background: none;
+  color: #775ce5;
+  border: 1px solid #775ce5;
+}

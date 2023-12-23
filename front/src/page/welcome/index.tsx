@@ -9,9 +9,9 @@ export const WelcomePage = () => {
     <div className="welcome__page">
       <div className="welcome">
         <StatusBar color="white" />
-        <img src={money} alt="Money" className="money__img"></img>
         <h1 className="welcome__title">Hello!</h1>
         <h4 className="welcome__subtitle">Welcome to bank app</h4>
+        <img src={money} alt="Money" className="money__img"></img>
       </div>
       <div className="welcome__space"></div>
       <div className="buttons">
